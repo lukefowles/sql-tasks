@@ -53,7 +53,7 @@ SELECT COUNT( DISTINCT hometeam) FROM matches WHERE division_code LIKE '%F%';
 7) Have Huddersfield played Swansea in the period covered?
 
 ```sql
-SELECT COUNT(*) FROM matches WHERE (hometeam = 'Swansea' AND awayteam = 'Huddersfield') OR (hometeam = 'HUDDERSFIELD' AND awayteam = 'Swansea');
+SELECT COUNT(*) FROM matches WHERE (hometeam = 'Swansea' AND awayteam = 'Huddersfield') OR (hometeam = 'Huddersfield' AND awayteam = 'Swansea');
 
 
 
